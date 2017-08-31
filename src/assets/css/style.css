@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  padding: 20px; }
+
+.inputField {
+  width: 70%;
+  margin: 20px auto;
+  margin-bottom: 30px; }
+
+/*GALLERY STYLE**/
+.book {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left;
+  cursor: pointer;
+  position: relative; }
+
+.book-img {
+  width: 220px;
+  height: 220px;
+  border: 4px solid #1e6da6;
+  object-fit: cover;
+  position: absolute; }
+
+.book-text {
+  background-color: #1e6da6;
+  color: white;
+  opacity: 0.75;
+  width: 214px;
+  height: 50px;
+  margin-left: 3px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden; }
