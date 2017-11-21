@@ -2,6 +2,7 @@
   "name": "booksearch",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://LBeLD.github.io/React_BookSearch",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -11,10 +12,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "axios": "^0.16.2",
+    "gh-pages": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "react-bootstrap": "^0.31.2"
